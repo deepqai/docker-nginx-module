@@ -1,4 +1,4 @@
-ARG nginx_version=1.15.2
+ARG nginx_version=1.20.1
 
 FROM nginx:${nginx_version} as build
 RUN apt-get update && apt-get install -y --no-install-suggests \
